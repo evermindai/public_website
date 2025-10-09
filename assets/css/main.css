@@ -2639,6 +2639,8 @@ input, select, textarea {
 		.image img {
 			display: block;
 			border-radius: 4px;
+			height: 100%;           /* new: fill the square */
+    		object-fit: cover;      /* new: crop nicely */
 		}
 
 		.image.left, .image.right {
