@@ -2632,6 +2632,8 @@ input, select, textarea {
 		border-radius: 4px;
 		display: inline-block;
 		position: relative;
+		aspect-ratio: 1 / 1;   /* new: force square */
+    	overflow: hidden;       /* hide overflow when cropped */
 	}
 
 		.image img {
